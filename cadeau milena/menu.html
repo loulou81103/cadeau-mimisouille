@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu - Date Chill</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('image_fond_menu.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .menu-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .menu-image {
+            max-width: 80%;
+            height: auto;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        .retour {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            padding: 10px 20px;
+            border: 2px solid white;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <img src="image_menu.png" alt="Menu" class="menu-image">
+    </div>
+    
+    <div class="retour">
+        <a href="date_chill.html">Retour</a>
+    </div>
+</body>
+</html>
